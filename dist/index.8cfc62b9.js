@@ -2961,17 +2961,46 @@ const heading = /*#__PURE__*/ (0, _reactDefault.default).createElement("h1", {
     id: "heading"
 }, "Namste React");
 console.log(heading);
-const jsxHeading = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-    className: "head",
-    children: "This is Namste react by jsx"
-}, void 0, false, {
-    fileName: "script.js",
-    lineNumber: 9,
-    columnNumber: 20
-}, undefined);
-console.log(jsxHeading);
+const Title = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+        className: "head",
+        children: "This is Namste react by jsx"
+    }, void 0, false, {
+        fileName: "script.js",
+        lineNumber: 10,
+        columnNumber: 5
+    }, undefined);
+_c = Title;
+const HeadingComponent = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        id: "container",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Title, {}, void 0, false, {
+                fileName: "script.js",
+                lineNumber: 17,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                children: "THis is react functional component"
+            }, void 0, false, {
+                fileName: "script.js",
+                lineNumber: 18,
+                columnNumber: 9
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "script.js",
+        lineNumber: 16,
+        columnNumber: 5
+    }, undefined);
+_c1 = HeadingComponent;
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
-root.render(jsxHeading);
+root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(HeadingComponent, {}, void 0, false, {
+    fileName: "script.js",
+    lineNumber: 25,
+    columnNumber: 13
+}, undefined));
+var _c, _c1;
+$RefreshReg$(_c, "Title");
+$RefreshReg$(_c1, "HeadingComponent");
 
   $parcel$ReactRefreshHelpers$595d.postlude(module);
 } finally {
