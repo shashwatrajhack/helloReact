@@ -29,7 +29,16 @@
 
 .res-card {
   width: 150px;
-  height: 200px;
-  padding: 3px;
+  height: 300px;
+  padding: 5px;
+}
+
+.res-card:hover {
+  cursor: pointer;
+  border: 1px solid #000;
+}
+
+.res-logo {
+  width: 100%;
 }
 /*# sourceMappingURL=index.3a01df49.css.map */
