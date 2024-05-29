@@ -27,9 +27,16 @@
   padding: 10px;
 }
 
+.res-container {
+  flex-wrap: wrap;
+  padding: 5px;
+  display: flex;
+}
+
 .res-card {
   width: 150px;
   height: 300px;
+  margin: 5px;
   padding: 5px;
 }
 
