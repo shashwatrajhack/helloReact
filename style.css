@@ -37,8 +37,9 @@
 .res-card{
     margin: 5px;
     padding: 5px;
-    width: 150px;
-    height: 300px;
+    width: 175px;
+    height: 400px;
+    overflow-wrap:break-word;
     
     
 
